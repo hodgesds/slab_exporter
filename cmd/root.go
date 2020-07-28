@@ -75,7 +75,7 @@ func init() {
 		&cfgFile,
 		"config", "c",
 		"",
-		"config file (default is $HOME/.perf_exporter.yaml)",
+		"config file (default is $HOME/.slab_exporter.yaml)",
 	)
 	RootCmd.PersistentFlags().String(
 		"metrics-path",

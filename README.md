@@ -1,5 +1,5 @@
 # slab_exporter
-Prometheus Exporter for Slab metrics. This exporter reads from `/proc/slabinfo` 
+Prometheus Exporter for Slab metrics. This exporter reads from `/proc/slabinfo`
 and exports the data as prometheus metrics.
 
 # Usage
@@ -11,7 +11,7 @@ Usage:
   slab_exporter [flags]
 
 Flags:
-  -c, --config string           config file (default is $HOME/.perf_exporter.yaml)
+  -c, --config string           config file (default is $HOME/.slab_exporter.yaml)
   -l, --listen-address string   Server listen address (default "0.0.0.0:8585")
       --metrics-path string     Metrics endpoint (default "/metrics")
   -r, --regex string            collect slabs matching regex
